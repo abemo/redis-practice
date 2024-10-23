@@ -48,13 +48,13 @@ def main():
     start_url = "https://en.wikipedia.org/wiki/Web_scraping"  
     end_url = "https://en.wikipedia.org/wiki/Data_mining"  
     
-    web_scrape.scrape_wikipedia(start_url, end_url)
+    # web_scrape.scrape_wikipedia(start_url, end_url)
     # print(web_scrape.r.get("https://en.wikipedia.org/wiki/Web_scraping"))
     # print(visualize_internal_links()[:5])
     # update_all_urls()
     # printAll()
     # clear_db()
-    # printAll()
+    print(web_scrape.r.dbsize())
     
 
     
